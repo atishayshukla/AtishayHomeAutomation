@@ -23,10 +23,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="Automation" />
+        <module name="AtishayTests" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AtishayTests" target="1.8" />
       <module name="Automation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
